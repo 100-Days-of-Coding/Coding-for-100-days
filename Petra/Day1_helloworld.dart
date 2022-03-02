@@ -7,7 +7,7 @@ main() {
     "I wish we try the input/output thingy",
   );
   print(
-    "It didn't work",
+    "It didn't work so",
   );
 }
 //Challenge for Day1, where we print an output
