@@ -6,7 +6,8 @@ main() {
   print(
     "I wish we try the input/output thingy",
   );
+  print(
+    "It didn't work",
+  );
 }
 //Challenge for Day1, where we print an output
-//The main function has been declared so i will just go ahead
-
