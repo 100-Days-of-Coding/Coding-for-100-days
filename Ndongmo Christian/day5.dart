@@ -1,5 +1,5 @@
 main() {
-  // first Challenge
+  //Challenge 1:Pass or Fail
   var listpercts = [75, 50, 35, 60, 65, 70];
   num n = listpercts.length;
   var average = 65;
@@ -18,7 +18,7 @@ main() {
     }
   }
 
-  //second challenge
+  //challenge 2: Only Even
   var evenList = [];
   var integers = [1, 2, 3, 4, 5, 6, 12];
 
@@ -30,5 +30,31 @@ main() {
       evenList.add(a);
     }
     print(evenList);
+  }
+
+  //Challenge 3:Oven is ready challenge
+  var count = 0;
+  var temp = 300;
+
+  while (temp < 375) {
+    temp += 25;
+    count += 1;
+  }
+  print(count);
+
+  //Challenge 4:Color Wheel
+  var color = 'red';
+  switch (color) {
+    case 'red':
+      print('green');
+      break;
+    case 'yellow':
+      print('purple');
+      break;
+    case 'blue':
+      print('orande');
+      break;
+    default:
+      print('Color not recognized');
   }
 }
