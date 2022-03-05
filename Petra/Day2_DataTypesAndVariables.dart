@@ -31,4 +31,7 @@ main() {
   var agen = 23;
   var namen = "Petra";
   print('$namen is $agen years old');
+  //to check type, use runtimeType during print
+  //dynamicVariable hold many values
+  //Also final and const were done with compile and run-time
 }
