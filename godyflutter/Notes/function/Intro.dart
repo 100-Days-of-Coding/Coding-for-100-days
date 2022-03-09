@@ -26,6 +26,7 @@ String myMessage(String who, [String? what, String? where]){
   return message;
 }
 
+
 //Example 6:
 int fact(int x){
   if(x==1){
@@ -34,6 +35,24 @@ int fact(int x){
     return x*fact(x-1);
   }
 }
+//Example 7
+List<int> forAll(Function f, List<int> intList){
+  var newList = <int>[];
+  for(var i = 0; i < intList.length; i ++){
+    newList.add(f(intList[i]));
+  }
+  return newList;
+}
+
+// Recursive factorial function
+int factorial(int x) {
+  if (x == 1) {
+    return 1;
+  } else {
+    return x*factorial(x-1);
+  }
+}
+
 void main(List<String> args) {
   //Writing Your First Function:
   //Function are bock of code that are writting and can be call in the program for reused
@@ -105,5 +124,24 @@ print(result);
 
 var result1 = fact(9);
 print(result1);
+
+//Higher-Order Functions
+//Dart is a true object-oriented language, so even functions are objects 
+//and have a type Function. Functions are treated like first-class values. 
+//What this means is that like any other value, a function can be assigned to variables,
+// passed as a parameter to another function,
+// and can also be returned as a result.
+//
+//Functions that take other functions as parameters or 
+//that return functions as results are called higher-order functions.
+
+//Example
+
+  var tester = [1,2,3];
+  print(tester);
+  print(result);
+
+
 }
+
 
