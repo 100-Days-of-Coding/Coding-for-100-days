@@ -52,6 +52,14 @@ int factorial(int x) {
     return x*factorial(x-1);
   }
 }
+//Example 8
+void outerFunction(){
+    print("Outer Function");
+    void nestedFunction(){
+      print("Nested Function");
+    }
+    nestedFunction();
+}
 
 void main(List<String> args) {
   //Writing Your First Function:
@@ -141,7 +149,30 @@ print(result1);
   print(tester);
   print(result);
 
+//Anonymous Functions;
+//Function Literals
+//Remember when we learned about literals? 
+//They are defined as fixed values appearing directly in the source code. 
+//Literals don’t need to be named, they can simply be used directly.
+//Syntax:
+//(paramList){
+//functionBody}
+//Learning by Example:
+ var list =[1,2,4,7];
+ list.forEach((item){
+   print(item*item*item);
+ });
 
+//Nested Functions
+//Simply put, nested functions are functions defined within another function. 
+//When we create functions within main() we are taking advantage of nested functions as
+// main() is a function on its own.
+//Example:
+
+outerFunction();
+
+//
 }
+
 
 
