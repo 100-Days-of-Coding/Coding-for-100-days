@@ -54,7 +54,15 @@ Enough of talking, lets get you start,
 
 |Author: @andrew21-mch
 
+##Resources
+So, working together, we will use the following resources
+- for dart, we will use [he flutter complete reference handbook](https://drive.google.com/file/d/1wX8EweyKI6P6tnRxGcPEyFvgPWuL3eD9/view?usp=sharing)
+- for flutter, we will use the [ngela Yu's course](https://drive.google.com/file/d/1U_SVK_t0DYQCiF2qa_qg-bgX-0m2bFtD/view?usp=sharing)
+- To get help with open source, check out [his](https://docs.github.com/en/get-started/quickstart/hello-world)
+
+we will continue with the folders created, recording our work in our respective folders.
+A new folder for projects has been created where will create our folders and record or submit the individual projects at the end of the modules
+
+Author: @PetraAG
 
 
-
-improving Skills
